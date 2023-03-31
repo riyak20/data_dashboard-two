@@ -1,48 +1,36 @@
-# Web Development Project 5 - *Data Dashboard*
+# Web Development Project 6 - *NASA Data Dashboard*
 
 Submitted by: **Riya Kabra**
 
-This web app: **Displays NASA data and enables users to search for specific data points**
+This web app: **This app displays information about near-Earth objects in a dashboard format.**
 
-Time spent: **5** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **The list displays a list of data fetched using an API call**
-- [X] **Data uses the useEffect React hook and async/await syntax**
-- [X] **The app dashboard includes at least three summary statistics about the data such as**
-  - [X] Size
-  - [X] Mean
-- [X] **A search bar allows the user to search for an item in the fetched data**
-- [ ] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [X] **The app includes at least two unique chart developed using the fetched data that tell an interesting story**
+- [X] **Clicking on an item in the list view displays more details about it**
+- [ ] **Clicking on an item has a direct, unique link to that item's detail view page**
+
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [X] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
-
-The following **additional** features are implemented:
-
-* [X] Live updates to the search results
+- [X] The site's customized dashboard contains more content that explains what is interesting about the data
+- [X] The site allows users to toggle between different data visualizations
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://user-images.githubusercontent.com/52909605/228125785-e00038de-112f-4c08-8b46-a8d7df55b4c7.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://user-images.githubusercontent.com/52909605/229244448-312f5957-4762-4a4d-a869-2aefc70d6325.gif' width='' alt='Video Walkthrough' />
 
-GIF created with LICECap.
-
-## Notes
-
-Difficult to create navigation capabilities once data was pulled from the API.
+Gif created with LICECap.
 
 ## License
 
-    Copyright [2023] [Riya Kabra]
+    Copyright [2003] [Riya Kabra]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
