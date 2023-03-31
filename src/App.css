@@ -1,0 +1,154 @@
+body {
+  background-image: url('https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw2133a.jpg');
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  color: #fff;
+}
+
+table th {
+  background-color: #333;
+}
+
+table tr:nth-child(even) {
+  background-color: #555;
+}
+
+table tr:nth-child(odd) {
+  background-color: #777;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.chart-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  }
+  
+  .chart-title {
+  font-size: 1.5em;
+  margin: 0 0 20px;
+  }
+  
+  .chart-legend {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  }
+  
+  .chart-legend li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 20px;
+  }
+  
+  .chart-legend li span {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+  }
+  
+  .chart-axis-label {
+  font-size: 1.2em;
+  }
+  
+  .chart-axis-tick {
+  font-size: 0.8em;
+  }
+  
+  .chart-axis-line {
+  stroke: #fff;
+  stroke-width: 2;
+  }
+  
+  .chart-bar {
+  fill: #007bff;
+  }
+  
+  .chart-bar:hover {
+  fill: #0056b3;
+  }
+  
+  .chart-line {
+  fill: none;
+  stroke: #007bff;
+  stroke-width: 2;
+  }
+  
+  .chart-line:hover {
+  stroke: #0056b3;
+  }
+  
+  .chart-tooltip {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  color: #333;
+  font-size: 0.8em;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  visibility: hidden;
+  z-index: 999;
+  }
+  
+  .chart-tooltip::before {
+  content: "";
+  border: 5px solid transparent;
+  border-top-color: #fff;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+  
+  .chart-tooltip.visible {
+  visibility: visible;
+  }
+
